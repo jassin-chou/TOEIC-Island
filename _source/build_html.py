@@ -43,6 +43,7 @@ rep('<button class="btn" data-act="history">作答紀錄', '<button class="btn" 
 # ---------------- data section ----------------
 region('const { islands, questions } = window.DATA;', '/* =========================================================\n   Session store', P('data.js'))
 region("const KEY = 'aegis-isles-v1';", 'function lastMap()', P('store.js'))
+region('/* ---------- original Celtic / mystic background score', 'function musicStart() {', P('music.js'))
 # TTS after beep()
 rep("/* =========================================================\n   Three.js scene", P('tts.js') + "\n/* =========================================================\n   Three.js scene")
 
